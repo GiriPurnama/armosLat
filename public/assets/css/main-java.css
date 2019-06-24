@@ -1,0 +1,238 @@
+
+th .customcheck {
+    position: relative;
+    top: -21px;
+}
+.customcheck{
+	margin-bottom: 5px !important; 
+}
+.customcheck input:checked ~ .checkmark:after{
+	top: -4px !important;
+}
+.customcheck .label-check{
+	position: relative;
+    left: 15px;
+    font-size: 18px;
+    top: -1px;
+}
+.navbar-pf .navbar-utility{
+	font-size: 13px;
+}
+.navbar-pf .navbar-utility>li>a{
+	border-left: none !important;
+}
+#detail-table_wrapper{
+	margin: 0px 0px;
+}
+.edit-profile{
+	display: -webkit-box;
+}
+.profile-picture {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+hr{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.error-msg, .success-msg {
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 10px;
+}
+.error-msg span{
+	display: block;
+    background: #ff0000ab;
+    border-radius: 4px;
+    padding: 1px;
+}
+.success-msg span{
+    display: block;
+    background: #48b41bc2;
+    border-radius: 4px;
+    padding: 1px;
+}
+.label-desc {
+    margin: 3px 0px;
+}
+.label-desc span.success {
+    background: #48b41bc2;
+    padding: 4px 8px;
+    color: #FFF !important;
+    border-radius: 4px;
+}
+.label-desc span.wrong {
+    background: #ff0000ab;
+    padding: 4px 8px;
+    color: #FFF !important;
+    border-radius: 4px;
+}
+.navbar-pf .navbar-utility .open .dropdown-menu{
+	right: 3px;
+}
+.profile-picture span {
+    width: 123px;
+    display: inline-block;
+    font-size: 74px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 2px 19px 2px #ccc;
+    -webkit-box-shadow: 0px 2px 19px 2px #ccc;
+    -moz-box-shadow: 0px 2px 19px 2px #ccc;
+    color: #222d32;
+}
+.profile-detail {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.profile-detail span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.profile-password {
+    padding: 0px 250px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.profile-password .form-control {
+    height: 41px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.profile-password .btn {
+    height: 45px;
+    width: auto;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+/*=============== Login ========================*/
+td.action-role span {
+    background: #222d32;
+    color: #FFF;
+    padding: 2px;
+    border-radius: 50%;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+td.action-role span:hover {
+	background: #FFF;
+	color: #222d32;
+	box-shadow: -1px 1px 9px 3px #ccc;
+	-webkit-box-shadow: -1px 1px 9px 3px #ccc;
+    -moz-box-shadow: -1px 1px 9px 3px #ccc;
+}
+td.action-role span a{
+	color: #FFF;
+}
+td.action-role span a:hover{
+	color: #222d32;
+}
+td.action-role  a span i{
+	position: relative;
+	top: 1px;
+    left: 0px;
+    font-size: 18px;
+}
+.modal-pf textarea.form-control {
+    height: auto;
+    height: 100px;
+    resize: none;
+}
+.button-pf {
+    /*padding: 1.2em 1em !important;*/
+    color: #fff;
+    overflow: hidden;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+div#log-table_wrapper {
+    margin-top: 30px;
+}
+select {
+    width: 100%;
+    height: 35px;
+    padding: 2px 6px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.section-login{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+table thead th {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+.section-login .btn-primary {
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+.section-login .form-control{
+	height: 38px;
+	border-radius: 4px;
+}
+.section-login .user-info .circle-user {
+	width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    box-shadow: 0px 2px 19px 2px #ccc;
+    -webkit-box-shadow: 0px 2px 19px 2px #ccc;
+    -moz-box-shadow: 0px 2px 19px 2px #ccc;
+    color: #222d32;
+}
+.section-login .user-info .circle-user i {
+    font-size: 70px;
+    position: relative;
+    top: 13px;
+    color: #535353;
+}
+.font-bold {
+    font-weight: bold;
+}
+.main {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .login-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  h3 {
+    text-align: center;
+    line-height: 300%;
+  }
+/*=============== Login ========================*/
